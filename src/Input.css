@@ -1,0 +1,14 @@
+.InputSpan{
+	font-size: 0.7em;
+	text-transform: lowercase;
+	margin-left: 0.5em;
+	color: #777;
+}
+
+.Input{
+	height: 3em;
+	width: 100%;
+	background-color: #eee;
+	border: 1px solid #eee;
+	border-radius: 0.7em;
+}

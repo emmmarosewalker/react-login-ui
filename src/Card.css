@@ -1,0 +1,61 @@
+.Card{
+	width: 15em;
+ 	max-width: 70%;
+ 	background-color: white;
+ 	padding: 4em;
+ 	margin-top: 10%;
+ 	border-radius: 0.8em;
+ 	-webkit-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+ 	-moz-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+ 	box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+	-webkit-animation: shadow-pulse 2s infinite; /* Safari 4+ */
+ 	-moz-animation:    shadow-pulse 2s infinite; /* Fx 5+ */
+	-o-animation:      shadow-pulse 2s infinite; /* Opera 12+ */
+	animation:         shadow-pulse 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes shadow-pulse {
+  0%   {
+  		-webkit-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+  50% {
+  		-webkit-box-shadow: 0px 0px 25px 1px rgba(56,31,56,0.4);
+  }
+  100%   {
+  		-webkit-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+}
+@-moz-keyframes shadow-pulse {
+  0%   {
+  		-moz-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+  50% {
+  		-moz-box-shadow: 0px 0px 25px 1px rgba(56,31,56,0.4);
+  	}
+  100% {
+  		-moz-box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+
+}
+@-o-keyframes shadow-pulse {
+  0%   {
+  		box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+  50% {
+  		box-shadow: 0px 0px 25px 1px rgba(56,31,56,0.4);
+  }
+  100%   {
+  		box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+}
+@keyframes shadow-pulse {
+  0%   {
+  		box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+  50% {
+  		box-shadow: 0px 0px 25px 1px rgba(56,31,56,0.4);
+  }
+  0%   {
+  		box-shadow: 0px 0px 10px 1px rgba(56,31,56,0.4);
+  }
+}
