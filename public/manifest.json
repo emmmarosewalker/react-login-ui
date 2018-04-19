@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LoginFormUI",
+  "name": "Create React App Login Form UI",
   "icons": [
     {
       "src": "favicon.ico",
